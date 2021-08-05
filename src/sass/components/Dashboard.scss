@@ -1,0 +1,50 @@
+/*-----Dashboard Principal-----*/
+.title{
+    text-align: center;
+}
+/*-----Servicios-----*/
+.title-service{
+    text-align: center;
+    background-color: #6FB95A;
+    box-shadow: 0px 2px 5px rgba(0,0,0,0.5);
+    border-radius: 10px;
+    padding: 10px;
+    margin: 15px 0 15px 0;
+}
+.alert-cont{
+    margin: 1px;
+    border: solid 1px black;
+    padding: 5px;
+    height: 70px;
+    color: white;
+    font-size: 14px;
+    font-weight: 600;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+}
+.alert-cont:hover{
+    opacity: 0.5;
+    cursor: pointer;
+    -o-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -webkit-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+.error{
+    background-color: #ff0000;
+}
+.waning{
+    background-color: #fad201;
+}
+.sucess{
+    background-color: #4bb543;
+}
+.inactive{
+    background-color: #979696;
+}
+.unavailable{
+    color: black !important;
+}
